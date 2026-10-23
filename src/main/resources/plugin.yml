@@ -1,0 +1,15 @@
+name: Volleyball
+version: 1.0.0
+main: ru.example.volleyball.VolleyballPlugin
+api-version: '1.21'
+author: ChatGPT
+description: Simple volleyball ball you can hit in Paper/Spigot.
+commands:
+  volleyball:
+    description: Spawn a volleyball
+    usage: /volleyball
+    aliases: [vball, vb]
+permissions:
+  volleyball.spawn:
+    description: Allows spawning a volleyball
+    default: true
